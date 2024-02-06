@@ -2,9 +2,9 @@ FROM quay.io/toolbx-images/alpine-toolbox:edge
 
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
-      summary="A cloud-native terminal experience" \
-      maintainer="jorge.castro@gmail.com"
+      summary="A cloud-native terminal experience"
 
+RUN echo "https://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories
 COPY extra-packages /
 RUN apk update && \
     apk upgrade && \
