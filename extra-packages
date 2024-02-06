@@ -45,3 +45,7 @@ tio
 emacs
 go
 yadm
+g++
+linux-headers
+openssl-dev
+build-base
