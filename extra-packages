@@ -26,5 +26,5 @@ zellij
 zstd
 zsh
 ansible
-terraform
+opentofu
 go-task
